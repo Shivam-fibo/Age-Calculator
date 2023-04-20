@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: #f0e9e9;
+    font-family: monospace;
+    font-weight: 100;
+}
+.box{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+h1{
+    /* display: inline-block; */
+    padding-left: 109px;
+    font-size: 39px;
+    /* align-items: center; */
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#birthday{
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+  
+}
+.button{
+
+    background-color: rgba(0, 0, 1, 0.988);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease-out;
+}
+.button:hover{
+    background-color: transparent;
+    color: black;
+    font-weight: bolder;
+}
+
+#result{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
